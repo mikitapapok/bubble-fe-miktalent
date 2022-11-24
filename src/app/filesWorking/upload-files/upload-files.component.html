@@ -1,0 +1,9 @@
+
+<div class="flex-col items-center">
+    <div>
+      <input class="hidden" type="file" name="" id="" (change)="onUploadHandler($event)" #fileUpload>
+    </div>
+     <div> {{fileName}}</div>
+  <button class="mt-[20px]  p-[10px] border-[1px] border-black rounded-[10px]"
+   (click)="fileUpload.click()">Send file</button>
+</div>
